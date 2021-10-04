@@ -1,0 +1,30 @@
+.contenedor__nav{
+    ol{
+        margin-top: 3rem;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        li{
+            a{
+                list-style: none;
+                text-decoration: none;
+                padding: 1.1rem;
+            }
+        }
+    }
+}
+
+
+
+.tituloGarantias{
+    padding: 30px;
+    text-align: center;
+}
+
+.textoGarantias{
+    width: 60%;
+    margin: 0 300px;
+    padding: 50px;
+}

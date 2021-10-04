@@ -1,0 +1,135 @@
+$white:rgb(200, 200, 200);
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    background-color: black;  
+    color: rgb(200, 200, 200);
+    line-height: normal;
+
+}
+
+a{
+    color: $white;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    img{
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+    li{
+        list-style-type: none;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px;
+        }
+    }
+
+}
+
+
+
+ol li a:hover,
+input:hover{
+    color: white;   
+    background: rgb(74,90,92);
+    background: radial-gradient(circle, rgba(74,90,92,1) 0%, rgba(0,0,0,1) 100%);
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+
+
+.footer {
+    color: $white;
+    padding-top: 40px;
+    .box__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .logo{
+            width: 100px;
+            height: 100px;
+            margin-left: 40px;
+            border-radius: 50%;
+        }
+      
+    }
+}
+
+// operaciones
+
+$ancho__footer:50%;
+
+.contac__footer{
+    width: $ancho__footer*2;
+    display: flex;
+    justify-content: space-evenly;
+    .box__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .tittle__footer{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.seccion__footer{
+    display:flex;
+    justify-content: flex-start;
+    border-top: 1px solid $white;
+    background: linear-gradient(rgb(35, 35, 36) , rgb(0,0,0));
+}
+
+
+// map en for each
+
+$sociales:(
+    instagram: rgb(197, 65, 60),
+    facebook: rgb(30, 0, 197),
+    whatsapp: rgb(0, 134, 0)
+    );
+    
+    
+    // aplicando for each
+    
+    @each $clave, $valor in $sociales {
+        .fab--#{$clave}:hover {
+            color: $valor;
+        }
+        
+    }
+    
+    // operaciones
+    $ancho:20px;
+
+    .fab{
+        font-size: $ancho*2 ;
+        padding: 0.7rem;
+    }
+    
+
+
+// .fab:hover{
+//     color: red;
+
+// }
+
+
+
+
