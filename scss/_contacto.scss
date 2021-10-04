@@ -1,0 +1,27 @@
+.contenedor__contacto{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo__contacto{
+        margin: 50px 0;
+        font-size: 25px;
+    }
+}
+
+form div{
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.button__class{
+    color: rgb(200, 200, 200);
+    background-color: black ;
+    width: 10rem;
+    height: 2rem;
+}

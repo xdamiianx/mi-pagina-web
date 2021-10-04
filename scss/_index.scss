@@ -1,0 +1,24 @@
+.container__Novedades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    .novedades{
+        color: rgb(200, 200, 200);
+        font-size: 50px;
+        text-align: center;
+    }
+    .novedades__parrafo{
+        color: rgb(200, 200, 200);
+        width: 60%;
+        margin: 35px;
+    }
+}
+
+.titulo__principal{
+  text-align: center;
+  border: 2px solid white;
+  padding: 0.6em 0;
+  margin-top: 4rem;
+}
