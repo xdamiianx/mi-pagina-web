@@ -176,6 +176,45 @@ input:hover {
   margin-top: 4rem;
 }
 
+.conteiner__seccion {
+  margin: 4em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img__log {
+  margin: 0 auto;
+  width: 120px;
+  border-radius: 49%;
+}
+
+.seccion__log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+
+.text__log {
+  font-size: 25px;
+}
+
 .navbar {
   padding: 0;
 }
