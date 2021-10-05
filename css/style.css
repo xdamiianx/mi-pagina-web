@@ -215,6 +215,10 @@ input:hover {
   font-size: 25px;
 }
 
+.dos, .tres {
+  border-left: 1px solid white;
+}
+
 .navbar {
   padding: 0;
 }
